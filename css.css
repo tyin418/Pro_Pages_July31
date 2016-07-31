@@ -1,0 +1,56 @@
+ * {
+     font-family: "Times New Roman", Georgia, Serif;
+     color: black;
+     text-align: center;
+ }
+
+ body {
+     width: 85%;
+     margin: 0 auto;
+ }
+
+ h1 {
+     font-size: 36px;
+ }
+
+ #content {
+     overflow: auto;
+ }
+
+ #nav,
+ #description,
+ #footer {
+     margin: 1%;
+     font-size: 19px;
+ }
+
+ .column1,
+ .column2,
+ .column3 {
+     width: 31.1%;
+     float: left;
+     margin: 1%;
+     font-size: 18px;
+ }
+
+ li {
+     display: inline;
+     padding: 5em;
+ }
+
+ img {
+     size: auto;
+ }
+
+ #nav,
+ #footer {
+     background-color: rgb(192, 192, 192);
+     padding: 0.3 em 0;
+ }
+
+ #description,
+ .project {
+     height: 10em;
+     margin-bottom: 1em;
+     background-color: rgb(192, 192, 192);
+ }
